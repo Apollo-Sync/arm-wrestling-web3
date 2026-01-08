@@ -65,3 +65,17 @@ INFURA_API_KEY=your_infura_or_alchemy_key_if_you_have  # Tùy chọn, nếu dùn
 npx hardhat clean
 npx hardhat run scripts/deploy.js --network sepolia
 ```
+
+**5. Create sever game**
+Running backend
+```
+cd ~/arm-wrestling-web3/backend
+node server.js
+```
+
+running frontend
+```
+cd ~/arm-wrestling-web3/frontend
+python3 -m http.server 8000
+```
+
