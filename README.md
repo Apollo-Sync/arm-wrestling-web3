@@ -91,7 +91,7 @@ python3 -m http.server 8000
 ```
 **6. enter game**
 ```
-IP:port
+http://IP:port
 ex: http://23.88.48.244:8000/
 ```
 
