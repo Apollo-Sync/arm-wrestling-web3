@@ -84,6 +84,11 @@ node server.js
 cd ~/arm-wrestling-web3/frontend
 python3 -m http.server 8000
 ```
+**6. enter game**
+```
+IP:port
+ex: http://23.88.48.244:8000/
+```
 
 
 
