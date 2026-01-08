@@ -6,17 +6,25 @@
   <title>Vật Tay Web3 - Arm Wrestling Game</title>
   <link rel="stylesheet" href="style.css">
   
-  <!-- Dùng ethers v6 từ CDN Cloudflare - ổn định nhất 2026 -->
-  <script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.umd.min.js"></script>
+  <!-- ethers.js v6 mới nhất từ jsDelivr (ổn định 2026) -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.16.0/dist/ethers.umd.min.js"></script>
 </head>
 <body>
-  <h1>Vật Tay Với Bot (Arm Wrestling Game)</h1>
-  <button id="connect">Kết Nối Ví</button>
-  <div id="status"></div>
-  <button id="play" disabled>Chơi (Vật Tay)</button>
-  <button id="buy" disabled>Mua Lượt Thêm</button>
-  <button id="leaderboard">Xem Bảng Xếp Hạng</button>
-  <div id="leaderboard-div"></div>
+  <div class="container">
+    <h1>💪 Vật Tay Với Bot 💪</h1>
+    <img src="https://i.imgur.com/0Z9k3pM.png" alt="Arm Wrestling" class="game-image">
+    <p>Mỗi ngày 5 lượt miễn phí • Thắng +1 điểm • Thua delay 1 tiếng</p>
+    
+    <button id="connect">Kết Nối Ví MetaMask</button>
+    
+    <div id="status" class="status-box"></div>
+    
+    <button id="play" disabled class="big-btn">Chơi (Vật Tay)</button>
+    <button id="buy" disabled class="big-btn">Mua Lượt Thêm</button>
+    <button id="leaderboard" class="big-btn">Xem Bảng Xếp Hạng</button>
+    
+    <div id="leaderboard-div" class="leaderboard-box"></div>
+  </div>
   
   <script src="app.js"></script>
 </body>
