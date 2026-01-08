@@ -54,3 +54,10 @@ cd backend
 npm install
 cd ..
 ```
+
+**3. Create your .env file**
+```
+PRIVATE_KEY=0xabc123...your_real_private_key_here
+INFURA_API_KEY=your_infura_or_alchemy_key_if_you_have  # Tùy chọn, nếu dùng Infura/Alchemy
+```
+
