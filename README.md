@@ -46,6 +46,10 @@ npm install
 ```
 
 ```
+npm install dotenv
+```
+
+```
 cd backend
 npm install
 cd ..
