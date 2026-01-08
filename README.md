@@ -23,10 +23,6 @@ Game Mechanics:Players access the website, connect their EVM wallet, and begin a
 - Initial win probability: 50%.
 - Win probability increases with total matches played (wins + losses):
 
-```
-
-### Win Rate Progression
-
 | Matches Played | Win Rate |
 |----------------|----------|
 | 0              | 50%      |
@@ -41,6 +37,7 @@ Game Mechanics:Players access the website, connect their EVM wallet, and begin a
 | 9              | 59%      |
 | 10+            | +1% per additional match |
 
+```
 
 **Tree structure**
 ```
