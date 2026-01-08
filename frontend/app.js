@@ -15,9 +15,9 @@ const backendUrl = 'http://localhost:3000/leaderboard';  // URL backend
 
 async function init() {
   if (window.ethereum) {
-    provider = new ethers.providers.Web3Provider(window.ethereum);
+    provider = new ethers.BrowserProvider(window.ethereum);
     await provider.send("eth_requestAccounts", []);
-    signer = provider.getSigner();
+    signer = await provider.getSigner();
     address = await signer.getAddress();
     contract = new ethers.Contract(contractAddress, abi, signer);
     document.getElementById('connect').disabled = true;

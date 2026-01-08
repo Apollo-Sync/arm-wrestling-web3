@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arm Wrestling Game Web3</title>
+  <title>Vật Tay Web3 - Arm Wrestling Game</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.ethers.io/lib/ethers-5.7.umd.min.js"></script>
+  
+  <!-- Dùng ethers v6 từ CDN Cloudflare - ổn định nhất 2026 -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.umd.min.js"></script>
 </head>
 <body>
   <h1>Vật Tay Với Bot (Arm Wrestling Game)</h1>
@@ -15,6 +17,7 @@
   <button id="buy" disabled>Mua Lượt Thêm</button>
   <button id="leaderboard">Xem Bảng Xếp Hạng</button>
   <div id="leaderboard-div"></div>
+  
   <script src="app.js"></script>
 </body>
 </html>
