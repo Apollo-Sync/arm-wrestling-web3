@@ -4,16 +4,24 @@
 ```
 **What is this game ?**
 ```
+1.Game Mechanics:
 Game Mechanics:Players access the website, connect their EVM wallet, and begin arm-wrestling matches against the bot.
 - Each day, players receive 5 free plays against the bot.
 - Once free plays are exhausted, players can purchase additional plays using ETH on the Sepolia network.
 - The pricing for additional plays follows an exponential increase to prevent whales with large ETH holdings from disrupting game balance:
--- First purchase of the day: 1 Sepolia ETH = 1 play.
--- Second purchase: 2 Sepolia ETH = 1 play.
--- Third purchase: 4 Sepolia ETH = 1 play.
--- Fourth purchase: 8 Sepolia ETH = 1 play.
--- (Doubles for each subsequent purchase within the same day).
-
+=> First purchase of the day: 1 Sepolia ETH = 1 play.
+=> Second purchase: 2 Sepolia ETH = 1 play.
+=> Third purchase: 4 Sepolia ETH = 1 play.
+=> Fourth purchase: 8 Sepolia ETH = 1 play.
+=> (Doubles for each subsequent purchase within the same day).
+- Purchase prices reset to the initial level (1 ETH) at the start of each new day.
+2. Match Outcomes:
+- Win: Player earns points.
+- Loss: Player faces a 1-hour cooldown before the next match.
+- Points update in real-time on the leaderboard (accessible via an in-game button).
+3. Win/Loss Determination:
+- Initial win probability: 50%.
+- Win probability increases with total matches played (wins + losses):
 ```
 
 
