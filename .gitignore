@@ -1,0 +1,19 @@
+# Ignore environment variables
+.env
+.env.local
+.env.*    
+
+# Các file nhạy cảm khác thường gặp trong dự án blockchain
+private.key
+secret*
+*.pem
+
+# Node modules và build (nếu có frontend/backend JS)
+node_modules/
+dist/
+build/
+
+# Hardhat/Foundry cache
+cache/
+artifacts/
+broadcast/
