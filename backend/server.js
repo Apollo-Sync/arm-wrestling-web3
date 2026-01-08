@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 const provider = new ethers.providers.JsonRpcProvider('https://rpc.sepolia.org');
-const contractAddress = 'YOUR_CONTRACT_ADDRESS_HERE';  // Thay sau khi deploy
+const contractAddress = '0x1C247b17b4929554a6710D0BC746615ccD785448';  // Thay sau khi deploy
 const abi = [
   "event PointUpdate(address indexed player, uint256 points)"
 ];
