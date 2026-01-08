@@ -67,13 +67,14 @@ npx hardhat run scripts/deploy.js --network sepolia
 ```
 
 **5. Create sever game**
-Running backend
+-You need open 2 terminal with tmux 
+-Running backend
 ```
 cd ~/arm-wrestling-web3/backend
 node server.js
 ```
 
-running frontend
+-running frontend
 ```
 cd ~/arm-wrestling-web3/frontend
 python3 -m http.server 8000
