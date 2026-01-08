@@ -22,6 +22,74 @@ Game Mechanics:Players access the website, connect their EVM wallet, and begin a
 3. Win/Loss Determination:
 - Initial win probability: 50%.
 - Win probability increases with total matches played (wins + losses):
+#### Win Rate Progression
+
+|
+ Matches Played 
+|
+ Win Rate 
+|
+|
+----------------
+|
+----------
+|
+|
+ 0              
+|
+ 50%      
+|
+|
+ 1              
+|
+ 51%      
+|
+|
+ 2              
+|
+ 52%      
+|
+|
+ 3              
+|
+ 53%      
+|
+|
+ 4              
+|
+ 54%      
+|
+|
+ 5              
+|
+ 55%      
+|
+|
+ 6              
+|
+ 56%      
+|
+|
+ 7              
+|
+ 57%      
+|
+|
+ 8              
+|
+ 58%      
+|
+|
+ 9              
+|
+ 59%      
+|
+|
+ 10+            
+|
+ Continues to increase by +1% per additional match 
+|
+
 ```
 
 
